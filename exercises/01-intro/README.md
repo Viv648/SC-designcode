@@ -1,24 +1,68 @@
-# Exercise 1: Intro
+# Exercise 1: Edit with AI
 
-Get familiar with the structure and make your first change.
+The starter page is already built. Your job is to make it yours — using plain English prompts to Claude.
 
-## Goal
+---
 
-Edit the starter file to match the design brief below.
+## Step 1 — Open the file
 
-## Brief
+Open `starter/index.html` in VS Code, then open it in your browser so you can see the result as you go.
 
-Update `starter/index.html` to display a simple page with:
-- A heading with your name
-- A short description
-- A button
+---
 
-## Steps
+## Step 2 — Open Claude
 
-1. Open `starter/index.html` in your editor
-2. Make your changes
-3. Open the file in your browser to see the result
+Press `` Ctrl+` `` (Windows) or `` Cmd+` `` (Mac) to open the terminal, type `claude`, and press Enter.
 
-## Done?
+---
 
-Compare your work against `solution/index.html`.
+## Step 3 — Try these prompts
+
+Copy and paste each one, or write your own version.
+
+**Change the content:**
+```
+In exercises/01-intro/starter/index.html, change the name "Alex" to my name
+```
+
+```
+Change the description to something about me — I like hiking and coffee
+```
+
+```
+Change the button text to "Let's go"
+```
+
+**Change the style:**
+```
+Change the background colour to a warm cream colour
+```
+
+```
+Make the heading green instead of blue
+```
+
+```
+Make the card corners more rounded
+```
+
+```
+Make the button red with white text
+```
+
+**Ask questions:**
+```
+What does border-radius do?
+```
+
+```
+What would happen if I made the font-size bigger?
+```
+
+---
+
+## That's it
+
+There's no right answer. The point is to get comfortable making changes by describing what you want.
+
+> Stuck or curious? Ask Claude anything — "why does this look different in Chrome?" or "how would I add an image?"

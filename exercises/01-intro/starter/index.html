@@ -3,21 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise 1 - Starter</title>
+    <title>My Travel Page</title>
     <style>
       body {
         font-family: sans-serif;
-        max-width: 600px;
-        margin: 40px auto;
-        padding: 0 20px;
+        background: #f0f4ff;
+        margin: 0;
+        padding: 40px 20px;
+      }
+
+      .card {
+        background: white;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      h1 {
+        color: #0770e3;
+        font-size: 2rem;
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: #444;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 32px;
+      }
+
+      .button {
+        display: inline-block;
+        background: #0770e3;
+        color: white;
+        padding: 14px 32px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+      }
+
+      .button:hover {
+        background: #0557b0;
       }
     </style>
   </head>
   <body>
-    <!-- TODO: Add a heading with your name -->
-
-    <!-- TODO: Add a short description -->
-
-    <!-- TODO: Add a button -->
+    <div class="card">
+      <h1>Hello, I'm Alex</h1>
+      <p>I love exploring new places. My dream destination is Japan — the food, the temples, the trains.</p>
+      <button class="button">Let's go</button>
+    </div>
   </body>
 </html>
