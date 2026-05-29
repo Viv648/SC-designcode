@@ -1,6 +1,6 @@
 # SC: Designing in Code
 
-Internal Skyscanner training — hands-on exercises for building UIs in code.
+Internal training — hands-on exercises for building UIs in code.
 
 You can work through these exercises yourself, or use Claude (AI) to help make changes. No coding experience required.
 
@@ -14,8 +14,8 @@ You can work through these exercises yourself, or use Claude (AI) to help make c
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/choon00o/SC-designing-in-code.git
-   cd SC-designing-in-code
+   git clone https://github.com/choon00o/SC-designcode.git
+   cd SC-designcode
    ```
 
 2. **Open the single exercise file**
