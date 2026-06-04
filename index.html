@@ -9,10 +9,10 @@
       :root {
         --color-primary: #0770e3;
         --color-primary-hover: #0557b0;
-        --color-text: #444;
-        --color-heading: #0770e3;
-        --color-bg: #f0f4ff;
-        --color-card-bg: white;
+        --color-text: #fffdd0;
+        --color-heading: #fffdd0;
+        --color-bg: maroon;
+        --color-card-bg: #555;
         --spacing-sm: 8px;
         --spacing-md: 16px;
         --spacing-lg: 32px;
@@ -88,8 +88,20 @@
       /* Exercise 2 */
       .card-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: 1fr;
         gap: var(--spacing-md);
+      }
+
+      @media (min-width: 600px) {
+        .card-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (min-width: 900px) {
+        .card-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
       }
 
       .destination-card {
@@ -121,8 +133,8 @@
     <div class="exercise">
       <div class="exercise-label">Exercise 1 — Edit with AI</div>
       <div class="card">
-        <h1>Hello, I'm Alex</h1>
-        <p>I love exploring new places. My dream destination is Japan — the food, the temples, the trains.</p>
+        <h1>Hello, I'm Philip</h1>
+        <p>I like sleeping in and rolling out of bed to come to AI training first-thing on Thursday mornings.</p>
         <button class="button">Let's go</button>
       </div>
     </div>
@@ -146,6 +158,10 @@
         <div class="destination-card">
           <h2>Thailand</h2>
           <p>Beaches, street food, and warm weather.</p>
+        </div>
+        <div class="destination-card">
+          <h2>Glasgow</h2>
+          <p>Wet, rainy, and watery.</p>
         </div>
       </div>
     </div>
